@@ -26,7 +26,16 @@ for path in sys.argv[1:]:
             intersction &= new_words
 
 
-blacklist = set(("siels",))
+blacklist = set(
+    ("siels",
+     "phnom",
+     "bantu",
+     "addis",
+     "grase",
+     "talon",
+     "mbyte",
+     "kbyte",
+     ))
 intersction -= blacklist
 
 
